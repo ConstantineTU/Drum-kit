@@ -158,6 +158,25 @@ body._lock {
   text-shadow: 0 0 1px black;
 }
 
+.key:hover {
+  cursor: pointer;
+  border-color: #f7c100;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.playing {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  border-color: #ffc600;
+  -webkit-box-shadow: 0 0 10px #ffc600;
+  box-shadow: 0 0 10px #ffc600;
+}
+
+.playing:hover {
+  border-color: #ffc600;
+}
+
 .keyboard {
   padding: 1px 0px 3px 0px;
   display: block;
