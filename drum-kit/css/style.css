@@ -149,6 +149,10 @@ body._lock {
   -o-transition: all 0.07s ease;
   transition: all 0.07s ease;
   border-radius: 5px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .mask:hover {
