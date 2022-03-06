@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>JS Drum-kit</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="img/favicon.ico">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap"
+		rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+	<div class="wrapper">
+
+		<div class="page">
+			<main>
+				<div class="keys">
+					<div class="mask" data-key="65">
+						<div data-key="65" class="key">
+							<kbd class="keyboard">A</kbd>
+							<span class="sound">clap</span>
+						</div>
+					</div>
+					<div class="mask" data-key="83">
+						<div data-key="83" class="key">
+							<kbd class="keyboard">S</kbd>
+							<span class="sound">hihat</span>
+						</div>
+					</div>
+					<div class="mask" data-key="68">
+						<div data-key="68" class="key">
+							<kbd class="keyboard">D</kbd>
+							<span class="sound">kick</span>
+						</div>
+					</div>
+					<div class="mask" data-key="70">
+						<div data-key="70" class="key">
+							<kbd class="keyboard">F</kbd>
+							<span class="sound">openhat</span>
+						</div>
+					</div>
+					<div class="mask" data-key="71">
+						<div data-key="71" class="key">
+							<kbd class="keyboard">G</kbd>
+							<span class="sound">boom</span>
+						</div>
+					</div>
+					<div class="mask" data-key="72">
+						<div data-key="72" class="key">
+							<kbd class="keyboard">H</kbd>
+							<span class="sound">ride</span>
+						</div>
+					</div>
+					<div class="mask" data-key="74">
+						<div data-key="74" class="key">
+							<kbd class="keyboard">J</kbd>
+							<span class="sound">snare</span>
+						</div>
+					</div>
+					<div class="mask" data-key="75">
+						<div data-key="75" class="key">
+							<kbd class="keyboard">K</kbd>
+							<span class="sound">tom</span>
+						</div>
+					</div>
+					<div class="mask" data-key="76">
+						<div data-key="76" class="key">
+							<kbd class="keyboard">L</kbd>
+							<span class="sound">tink</span>
+						</div>
+					</div>
+
+					<audio data-key="65" src="audio/clap.wav"></audio>
+					<audio data-key="83" src="audio/hihat.wav"></audio>
+					<audio data-key="68" src="audio/kick.wav"></audio>
+					<audio data-key="70" src="audio/openhat.wav"></audio>
+					<audio data-key="71" src="audio/boom.wav"></audio>
+					<audio data-key="72" src="audio/ride.wav"></audio>
+					<audio data-key="74" src="audio/snare.wav"></audio>
+					<audio data-key="75" src="audio/tom.wav"></audio>
+					<audio data-key="76" src="audio/tink.wav"></audio>
+
+				</div>
+			</main>
+
+		</div>
+
+
+	</div>
+
+	<script src="js/app.js"></script>
+</body>
+
+</html>
