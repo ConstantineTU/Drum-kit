@@ -1,4 +1,4 @@
-# Project link [Drum-kit](https://rolling-scopes-school.github.io/constantinetu-JSFEPRESCHOOL/drum-kit/) (Desktop version)
+# Project link [Drum-kit](https://constantinetu.github.io/Drum-kit/) (Desktop version)
 
 ### Drum Kit is a musical application in which you can play sounds by pressing the keys on the keyboard. Each key has its own sound. My first music app, this is where I used the Audio API for the first time.
 
